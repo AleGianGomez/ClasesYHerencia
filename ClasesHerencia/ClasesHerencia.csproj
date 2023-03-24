@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Auxiliar.cs" />
+    <Compile Include="JefeDeCarrera.cs" />
     <Compile Include="Trabajador.cs" />
     <Compile Include="Docente.cs" />
     <Compile Include="Estudiante.cs" />

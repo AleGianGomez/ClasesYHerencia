@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClasesHerencia
 {
-    internal class JefeDeCarrera
+    internal class JefeDeCarrera:Usuario
     {
+        public decimal Sueldo { get; set; }
+        public int HorasTrabajadas { get; set; }
+        public override string ToString()
+        {
+            return $"Cuenta: {Cuenta} | Pass: {Password} | Nombre: {Nombre} | Sueldo: {Sueldo} | Horas: {HorasTrabajadas}";
+        }
     }
 }
